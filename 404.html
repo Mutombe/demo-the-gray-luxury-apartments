@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>The Gray Luxury Apartments</title>
+  <script>
+    (function() {
+      try {
+        sessionStorage.setItem('gray:spa-redirect', window.location.pathname + window.location.search + window.location.hash);
+      } catch (e) {}
+      window.location.replace('/');
+    })();
+  </script>
+</head>
+<body></body>
+</html>
